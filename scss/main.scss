@@ -82,7 +82,7 @@ img {
     &-home {
         background: $bg-image no-repeat center center/cover;
         height: 100vh;
-        color: #fff;
+        color: set-text-color(#3E5672);
 
         // Heder content
         .header-content {
