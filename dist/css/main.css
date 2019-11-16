@@ -4,12 +4,36 @@
   margin: auto;
   overflow: hidden; }
 
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: .8rem 2rem;
+  transition: all .5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333;
+  background-color: #13b2b8; }
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-clip: #13b2b8; }
+
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff; }
 
@@ -56,3 +80,9 @@ img {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   color: white; }
+  #header-home .header-content {
+    text-align: center;
+    padding-top: 20%; }
+    #header-home .header-content h1 {
+      font-size: 4rem;
+      line-height: 1.2; }
