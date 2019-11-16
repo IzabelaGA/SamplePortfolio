@@ -59,6 +59,10 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
+#home-a .specials, #home-b .stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
 * {
   margin: 0;
   padding: 0; }
@@ -119,27 +123,23 @@ img {
       line-height: 1.2; }
 
 #home-a .specials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   margin-top: 3rem; }
   #home-a .specials .fas {
     color: #13b2b8;
     padding-bottom: .4rem; }
 
-#home-b .stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-  #home-b .stats li {
-    line-height: 2; }
-    #home-b .stats li.stats-title {
-      font-size: 1.5rem; }
-    #home-b .stats li.stats-number {
-      font-size: 2rem;
-      font-weight: bold; }
-  #home-b .stats div {
-    padding: 3rem 0; }
-    #home-b .stats div:nth-child(odd) {
-      background-color: #f4f4f4; }
-    #home-b .stats div:nth-child(even) {
-      background-color: #ccc; }
+#home-b .stats li {
+  line-height: 2; }
+  #home-b .stats li.stats-title {
+    font-size: 1.5rem; }
+  #home-b .stats li.stats-number {
+    font-size: 2rem;
+    font-weight: bold; }
+
+#home-b .stats div {
+  padding: 3rem 0; }
+  #home-b .stats div:nth-child(odd) {
+    background-color: #f4f4f4; }
+  #home-b .stats div:nth-child(even) {
+    background-color: #ccc; }

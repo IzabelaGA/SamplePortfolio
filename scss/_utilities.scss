@@ -86,3 +86,9 @@ input[class^='btn-']:hover {
         margin: 4rem 0;
     }
 }
+
+// Display
+%displg4-shared {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

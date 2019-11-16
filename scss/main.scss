@@ -100,15 +100,14 @@ img {
 
 // Home Sections
 
-
-
 #home {
 
     // Home Section A
     &-a {
         .specials {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            @extend %displg4-shared;
+            // display: grid;
+            // grid-template-columns: repeat(4, 1fr);
             grid-gap: 1rem;
             margin-top: 3rem;
 
@@ -122,8 +121,9 @@ img {
     // Home Section B
     &-b {
         .stats {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            @extend %displg4-shared;
+            // display: grid;
+            // grid-template-columns: repeat(4, 1fr);
 
             li {
                 line-height: 2;
@@ -136,8 +136,6 @@ img {
                     font-size: 2rem;
                     font-weight: bold;
                 }
-
-                odd {}
             }
 
             div {
