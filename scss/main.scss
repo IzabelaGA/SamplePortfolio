@@ -1,6 +1,6 @@
-@import 'config';
-@import 'utilities';
+@import 'variables';
 @import 'functions';
+@import 'utilities';
 @import 'mixins';
 
 // General styles
@@ -208,7 +208,9 @@ img {
             margin-right: 1rem;
             border: 2px solid #fff;
 
-            @include circle(static, transparent, .5rem, 1.25rem, 1.25rem, 1.25rem) &:hover {
+            @include circle(static, transparent, .5rem, 1.25rem, 1.25rem, 1.25rem);
+
+            &:hover {
                 background: $main-color;
                 color: set-text-color($main-color);
             }

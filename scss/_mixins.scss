@@ -10,3 +10,9 @@
     transition: $transition-speed1;
     text-align: center;
 }
+
+// Display - extend
+%displg4-shared {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

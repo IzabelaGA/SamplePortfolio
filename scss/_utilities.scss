@@ -12,6 +12,7 @@
     transition: all .5s;
     border: none;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .btn {
@@ -39,6 +40,7 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
     background-color: $main-color;
     color: set-text-color($main-color);
+    border-color: set-text-color($main-color);
 }
 
 .lead {
@@ -88,11 +90,7 @@ input[class^='btn-']:hover {
     }
 }
 
-// Display
-%displg4-shared {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
+
 
 .section-title {
     font-size: 2rem;

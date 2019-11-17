@@ -9,25 +9,27 @@
   padding: .8rem 2rem;
   transition: all .5s;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 1px solid transparent; }
 
 .btn-main {
-  color: set-text-color(#13b2b8);
+  color: #fff;
   background-color: #13b2b8; }
 
 .btn-light {
-  color: set-text-color(#f4f4f4);
+  color: #333;
   background-color: #f4f4f4; }
 
 .btn-dark {
-  color: set-text-color(#333);
+  color: #fff;
   background-color: #333; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: #13b2b8;
-  color: set-text-color(#13b2b8); }
+  color: #fff;
+  border-color: #fff; }
 
 .lead {
   font-size: 1.3rem;
@@ -60,10 +62,6 @@ input[class^='btn-']:hover {
 .my-4 {
   margin: 4rem 0; }
 
-#home-a .specials, #home-b .stats, #home-c .process {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-
 .section-title {
   font-size: 2rem;
   display: block;
@@ -78,6 +76,10 @@ input[class^='btn-']:hover {
   background: #13b2b8;
   display: block;
   margin: 0 auto 1rem auto; }
+
+#home-a .specials, #home-b .stats, #home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
 
 * {
   margin: 0;
