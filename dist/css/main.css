@@ -172,14 +172,16 @@ img {
     width: 4.4rem;
     height: 4.4rem;
     line-height: 4.4rem;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+    text-align: center; }
     #home-c .process-icon:hover {
       background: #13b2b8;
       width: 5.5rem;
       height: 5.5rem;
       line-height: 5.5rem; }
       #home-c .process-icon:hover .process-step {
-        background: #333; }
+        background: #333;
+        color: #fff; }
   #home-c .process-step {
     position: absolute;
     border-radius: 50%;
@@ -190,6 +192,33 @@ img {
     height: 1rem;
     line-height: 1rem;
     transition: all 0.5s;
+    text-align: center;
     top: 0;
     right: 0;
     font-size: 1.75rem; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      position: static;
+      border-radius: 50%;
+      background-color: transparent;
+      color: #fff;
+      padding: 0.5rem;
+      width: 1.25rem;
+      height: 1.25rem;
+      line-height: 1.25rem;
+      transition: all 0.5s;
+      text-align: center; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #13b2b8;
+        color: #fff; }
