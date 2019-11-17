@@ -31,6 +31,22 @@ input[class^='btn-']:hover {
   color: #fff;
   border-color: #fff; }
 
+.bg-main {
+  background: #13b2b8;
+  color: #fff; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.bg-medium {
+  background: #ccc;
+  color: #333; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333; }
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
@@ -141,6 +157,11 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 
+#header-inner {
+  background: #13b2b8 url("../img/showcase.png") no-repeat 20% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #f4f4f4; }
+
 #home-a .specials {
   grid-gap: 1rem;
   margin-top: 3rem; }
@@ -198,6 +219,34 @@ img {
     top: 0;
     right: 0;
     font-size: 1.75rem; }
+
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-gap: 1.2rem; }
+
+#about-a .bo-image {
+  grid-area: bioimage; }
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #13b2b8;
+  padding: 4rem 3rem; }
+
+#about-a .award-1 {
+  grid-area: aw1; }
+
+#about-a .award-2 {
+  grid-area: aw2; }
+
+#about-a .award-3 {
+  grid-area: aw3; }
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #13b2b8;
+  margin: 1rem; }
 
 #main-footer {
   background: #333;
