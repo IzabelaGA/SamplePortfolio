@@ -166,13 +166,13 @@ img {
   #home-c .process-icon {
     position: relative;
     border-radius: 50%;
-    background: #333;
+    background-color: #333;
     color: #fff;
     padding: 2rem;
     width: 4.4rem;
     height: 4.4rem;
     line-height: 4.4rem;
-    transition: all .5s; }
+    transition: all 0.5s; }
     #home-c .process-icon:hover {
       background: #13b2b8;
       width: 90px;
@@ -182,14 +182,14 @@ img {
         background: #333; }
   #home-c .process-step {
     position: absolute;
-    top: 0;
-    right: 0;
     border-radius: 50%;
-    font-size: 1.75rem;
-    background: #13b2b8;
+    background-color: #13b2b8;
     color: #fff;
     padding: 1rem;
     width: 1rem;
     height: 1rem;
     line-height: 1rem;
-    transition: all .5s; }
+    transition: all 0.5s;
+    top: 0;
+    right: 0;
+    font-size: 1.75rem; }

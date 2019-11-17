@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utilities';
 @import 'functions';
+@import 'mixins';
 
 // General styles
 * {
@@ -154,7 +155,7 @@ img {
         }
     }
 
-    // Home Section B
+    // Home Section C
     &-c {
         .process {
             @extend %displg4-shared;
@@ -162,19 +163,11 @@ img {
 
             // process-icon
             &-icon {
-                position: relative;
-                border-radius: 50%;
-                background: $dark-color;
-                color: set-text-color($dark-color);
-                padding: 2rem;
-                width: 4.4rem;
-                height: 4.4rem;
-                line-height: 4.4rem;
-                transition: all .5s;
+               
+                @include circle(relative, 50%, $dark-color, set-text-color($dark-color), 2rem, 4.4rem, 4.4rem, 4.4rem, $transition-speed1);
 
                 &:hover {
                     background: $main-color;
-                    // transform: scale(1.07);
                     width: 90px;
                     height: 90px;
                     line-height: 90px;
@@ -187,18 +180,10 @@ img {
 
             // process - step
             &-step {
-                position: absolute;
+                @include circle(absolute, 50%, $main-color, set-text-color($main-color), 1rem, 1rem, 1rem, 1rem, $transition-speed1);
                 top: 0;
                 right: 0;
-                border-radius: 50%;
                 font-size: 1.75rem;
-                background: $main-color;
-                color: set-text-color($main-color);
-                padding: 1rem;
-                width: 1rem;
-                height: 1rem;
-                line-height: 1rem;
-                transition: all .5s;
             }
         }
     }
