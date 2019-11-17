@@ -93,3 +93,21 @@ input[class^='btn-']:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.section-title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: $main-color;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
