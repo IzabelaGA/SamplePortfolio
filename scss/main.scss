@@ -80,9 +80,9 @@ img {
 
     // Header home
     &-home {
-        background: $bg-image no-repeat center center/cover;
+        background: $main-color $bg-image no-repeat center center/cover;
         height: 100vh;
-        color: set-text-color(#3E5672);
+        color: set-text-color($main-color);
 
         // Heder content
         .header-content {

@@ -17,7 +17,7 @@
 .btn {
     &-main {
         @extend %btn-shared;
-        color:set-text-color($main-color);
+        color: set-text-color($main-color);
         background-color: $main-color;
     }
 
@@ -29,7 +29,7 @@
 
     &-dark {
         @extend %btn-shared;
-        color:  set-text-color($dark-color);
+        color: set-text-color($dark-color);
         background-color: $dark-color;
     }
 }
