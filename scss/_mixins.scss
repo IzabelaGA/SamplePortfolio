@@ -1,11 +1,11 @@
-@mixin circle($position, $bdra, $bgc, $col, $padding, $width, $height, $lh, $transition) {
+@mixin circle($position, $bgc, $padding, $width, $height, $lh) {
     position: $position;
-    border-radius: $bdra;
+    border-radius: 50%;
     background-color: $bgc;
-    color: $col;
+    color: set-text-color($bgc);
     padding: $padding;
     width: $width;
     height: $height;
     line-height: $lh;
-    transition: $transition;
+    transition: $transition-speed1;
 }

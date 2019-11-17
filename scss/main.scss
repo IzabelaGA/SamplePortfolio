@@ -163,14 +163,14 @@ img {
 
             // process-icon
             &-icon {
-               
-                @include circle(relative, 50%, $dark-color, set-text-color($dark-color), 2rem, 4.4rem, 4.4rem, 4.4rem, $transition-speed1);
+
+                @include circle(relative, $dark-color, 2rem, 4.4rem, 4.4rem, 4.4rem);
 
                 &:hover {
                     background: $main-color;
-                    width: 90px;
-                    height: 90px;
-                    line-height: 90px;
+                    width: 5.5rem;
+                    height: 5.5rem;
+                    line-height: 5.5rem;
 
                     .process-step {
                         background: $dark-color;
@@ -180,7 +180,7 @@ img {
 
             // process - step
             &-step {
-                @include circle(absolute, 50%, $main-color, set-text-color($main-color), 1rem, 1rem, 1rem, 1rem, $transition-speed1);
+                @include circle(absolute, $main-color, 1rem, 1rem, 1rem, 1rem);
                 top: 0;
                 right: 0;
                 font-size: 1.75rem;

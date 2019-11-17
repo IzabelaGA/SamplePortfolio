@@ -175,9 +175,9 @@ img {
     transition: all 0.5s; }
     #home-c .process-icon:hover {
       background: #13b2b8;
-      width: 90px;
-      height: 90px;
-      line-height: 90px; }
+      width: 5.5rem;
+      height: 5.5rem;
+      line-height: 5.5rem; }
       #home-c .process-icon:hover .process-step {
         background: #333; }
   #home-c .process-step {
