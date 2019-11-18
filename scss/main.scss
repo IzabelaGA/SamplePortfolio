@@ -206,14 +206,15 @@ img {
         }
 
         // Grid Area
-        .bo-image {
+        .bio-image {
             grid-area: bioimage;
+            background: radial-gradient(ellipse at 25% 40%, #fac7c5 10%, #fabebc 45%, #f3b0ae 55%, #e7999c 75%, #D58387 100%);
         }
 
         .bio {
             grid-area: bio;
             border-left: 3px solid $main-color;
-            padding: 4rem 3rem;
+            padding: 4rem;
         }
 
         .award-1 {

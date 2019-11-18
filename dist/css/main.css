@@ -225,13 +225,14 @@ img {
   grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
-#about-a .bo-image {
-  grid-area: bioimage; }
+#about-a .bio-image {
+  grid-area: bioimage;
+  background: radial-gradient(ellipse at 25% 40%, #fac7c5 10%, #fabebc 45%, #f3b0ae 55%, #e7999c 75%, #D58387 100%); }
 
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #13b2b8;
-  padding: 4rem 3rem; }
+  padding: 4rem; }
 
 #about-a .award-1 {
   grid-area: aw1; }
