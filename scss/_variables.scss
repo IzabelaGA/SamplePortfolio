@@ -1,7 +1,10 @@
 // Variables
 $website-width: 1280px;
 $main-color: #13b2b8;
+$main-grad-color: linear-gradient(to left bottom, #13b2b8, #44c9ce, #6edbdf, #a3e8eb);
 $light-color: #f4f4f4;
+$rose-color: #D58387;
+$rose-grad-color: radial-gradient(ellipse at 25% 40%, #fac7c5 10%, #fabebc 45%, #f3b0ae 55%, #e7999c 75%, #D58387 100%);
 $medium-color: #ccc;
 $dark-color: #333;
 $bg-image: url('../img/showcase.png');

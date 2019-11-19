@@ -44,20 +44,23 @@ input[class^='btn-']:hover {
 }
 
 // Backgrounds
-.bg{
-    &-main{
+.bg {
+    &-main {
         background: $main-color;
         color: set-text-color($main-color);
     }
-    &-dark{
+
+    &-dark {
         background: $dark-color;
         color: set-text-color($dark-color);
     }
-    &-medium{
+
+    &-medium {
         background: $medium-color;
         color: set-text-color($medium-color);
     }
-    &-light{
+
+    &-light {
         background: $light-color;
         color: set-text-color($light-color);
     }

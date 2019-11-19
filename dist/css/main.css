@@ -123,7 +123,7 @@ img {
   width: 100%; }
 
 #logo {
-  max-width: 170px;
+  max-width: 200px;
   color: #fff;
   text-transform: uppercase; }
 
@@ -144,10 +144,11 @@ img {
         #main-nav ul li a:hover {
           border-color: #ccc; }
         #main-nav ul li a.current {
-          border-color: #13b2b8; }
+          border-color: #f4f4f4; }
 
 #header-home {
-  background: #13b2b8 url("../img/showcase.png") no-repeat center center/cover;
+  background: linear-gradient(to left bottom, #13b2b8, #44c9ce, #6edbdf, #a3e8eb), url("../img/showcase.png") no-repeat center center/cover;
+  background-blend-mode: multiply;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -232,7 +233,7 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #13b2b8;
-  padding: 4rem; }
+  padding: 2rem; }
 
 #about-a .award-1 {
   grid-area: aw1; }
