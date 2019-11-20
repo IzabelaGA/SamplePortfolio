@@ -2,6 +2,7 @@
 @import 'functions';
 @import 'utilities';
 @import 'mixins';
+@import 'item_grid';
 
 // General styles
 * {
@@ -286,11 +287,6 @@ img {
                     margin-right: .5rem;
                 }
             }
-
-
-
-
-
         }
     }
 }
