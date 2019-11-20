@@ -261,6 +261,38 @@ img {
             grid-gap: 2rem;
         }
     }
+
+    // About -D
+    &-d {
+        .testimonials {
+            @extend %displg4-shared;
+            grid-gap: .5rem;
+
+            p {
+                border: 1px solid $medium-color;
+                border-radius: .3rem;
+                padding: .5rem;
+            }
+
+            ul {
+                display: flex;
+                margin-top: 1rem;
+                align-items: center;
+
+                img {
+                    border-radius: 50%;
+                    width: 4rem;
+                    height: 4rem;
+                    margin-right: .5rem;
+                }
+            }
+
+
+
+
+
+        }
+    }
 }
 
 // Footer

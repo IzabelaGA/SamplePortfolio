@@ -93,7 +93,7 @@ input[class^='btn-']:hover {
   display: block;
   margin: 0 auto 1rem auto; }
 
-#home-a .specials, #home-b .stats, #home-c .process, #about-c .about-logos {
+#home-a .specials, #home-b .stats, #home-c .process, #about-c .about-logos, #about-d .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
 
@@ -262,6 +262,22 @@ img {
 
 #about-c .about-logos {
   grid-gap: 2rem; }
+
+#about-d .testimonials {
+  grid-gap: .5rem; }
+  #about-d .testimonials p {
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+    padding: .5rem; }
+  #about-d .testimonials ul {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center; }
+    #about-d .testimonials ul img {
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      margin-right: .5rem; }
 
 #main-footer {
   background: #333;
