@@ -336,6 +336,19 @@ img {
             width: 50%;
         }
     }
+
+    &-b {
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &-c {
+        h1 {
+            font-size: 3rem;
+        }
+    }
 }
 
 // Footer
