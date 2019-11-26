@@ -216,7 +216,7 @@ img {
         #main-nav ul li a:hover {
           border-color: #ccc; }
         #main-nav ul li a.current {
-          border-color: #333; }
+          border-color: #777; }
 
 #header-home {
   background: linear-gradient(to left bottom, #13b2b8, #44c9ce, #6edbdf, #a3e8eb), url("../img/showcase.png") no-repeat center center/cover;
@@ -407,7 +407,7 @@ img {
         background: #13b2b8;
         color: #fff; }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
@@ -430,4 +430,48 @@ img {
     #header-home .header-content {
       display: none; }
   #header-inner {
-    height: 10rem; } }
+    height: 10rem; }
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr; }
+  #home-a .specials div {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 1rem; }
+    #home-a .specials div:last-child {
+      border-bottom: none;
+      padding-bottom: 0; }
+  #home-b .stats div {
+    padding: 2rem 0 1rem; }
+  #about-a .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    #about-a .about-info .bio-image {
+      padding-top: 0; }
+  #about-c {
+    display: none; }
+  #contact-a .text-fields {
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #contact-b .contact-info div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #555; }
+    #contact-b .contact-info div:last-child {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  #contact-c h1 {
+    font-size: 2rem; }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding-top: 1rem; } }
+
+@media (max-height: 580px) {
+  #header-home .header-content {
+    padding-top: 2rem; }
+    #header-home .header-content h1 {
+      font-size: 2rem; } }

@@ -1,5 +1,5 @@
 // Tablets & Smaller
-@media(max-width: 800px) {
+@media(max-width: 900px) {
     #header-home {
         height: 30rem;
 
@@ -48,6 +48,115 @@
         &-inner {
             height: 10rem;
 
+        }
+    }
+
+    // Stack Grid Columns
+    #home-a .specials,
+    #home-b .stats,
+    #home-c .process,
+    #about-d .testimonials,
+    #contact-b .contact-info,
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    #home {
+        &-a {
+            .specials div {
+                border-bottom: 1px solid $light-color;
+                padding-bottom: 1rem;
+
+                &:last-child {
+                    border-bottom: none;
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        &-b {
+            .stats div {
+                padding: 2rem 0 1rem;
+            }
+        }
+    }
+
+    // About
+    #about {
+        &-a {
+            .about-info {
+                grid-template-areas: 'bioimage'
+                    'bio'
+                    'aw1'
+                    'aw2'
+                    'aw3';
+
+                .bio-image {
+                    padding-top: 0;
+                }
+            }
+        }
+
+        &-c {
+            display: none;
+        }
+    }
+
+    // Contact
+    #contact {
+        &-a {
+            .text-fields {
+                grid-template-areas: 'name'
+                    'subject'
+                    'email'
+                    'phone'
+                    'message';
+            }
+        }
+
+        &-b {
+            .contact-info {
+                div {
+                    margin-bottom: 1rem;
+                    padding-bottom: 1rem;
+                    border-bottom: 1px solid #555;
+
+                    &:last-child {
+                        border: none;
+                        margin-bottom: 0;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        &-c {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    // Footer
+    #main-footer {
+        height: 7rem;
+
+        .footer-content {
+            flex-direction: column;
+            // justify-content: center;
+            padding-top: 1rem;
+        }
+    }
+}
+
+// Landscape
+@media(max-height:580px){
+    #header-home{
+        .header-content{
+            padding-top: 2rem;
+            h1{
+                font-size: 2rem;
+            }
         }
     }
 }
