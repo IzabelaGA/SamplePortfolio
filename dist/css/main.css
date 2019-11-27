@@ -424,9 +424,9 @@ img {
     #main-nav ul li {
       padding: 1rem; }
   #header-home {
+    background: #13b2b8 url("../img/showcase.png") 20% 30%/cover;
     height: 10rem;
-    border-bottom: 3px solid #f4f4f4;
-    background-position: 20% 30%; }
+    border-bottom: 3px solid #f4f4f4; }
     #header-home .header-content {
       display: none; }
   #header-inner {

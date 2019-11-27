@@ -36,9 +36,9 @@
 
     #header {
         &-home {
+            background: $main-color $bg-image 20% 30%/cover;
             height: 10rem;
             border-bottom: 3px solid $light-color;
-            background-position: 20% 30%;
 
             .header-content {
                 display: none;
@@ -150,11 +150,12 @@
 }
 
 // Landscape
-@media(max-height:580px){
-    #header-home{
-        .header-content{
+@media(max-height:580px) {
+    #header-home {
+        .header-content {
             padding-top: 2rem;
-            h1{
+
+            h1 {
                 font-size: 2rem;
             }
         }
